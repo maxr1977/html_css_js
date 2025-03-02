@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form action="#">
+      <fieldset class="fieldset-one">
+        <legend>Имя</legend>
+        <input class="name" type="text" placeholder="Имя" name="name" />
+        <input class="name" type="text" placeholder="Фамилия" name="surname" />
+      </fieldset>
+      <div class="fieldset-two">
+        <fieldset class="gender">
+          <legend>Пол</legend>
+          <div>
+            <input type="radio" name="gender" id="male" />
+            <label for="male">Мужской</label>
+          </div>
+          <div>
+            <input type="radio" name="gender" id="female" />
+            <label for="female">Женский</label>
+          </div>
+          <div>
+            <input type="radio" name="gender" id="unknown" />
+            <label for="unknown">Не хочу говорить</label>
+          </div>
+        </fieldset>
+        <fieldset class="checkbox">
+          <legend>Получать рассылку</legend>
+          <div>
+            <input type="checkbox" name="email" id="email" />
+            <label for="email">Email</label>
+          </div>
+          <div>
+            <input type="checkbox" name="SMS" id="SMS" />
+            <label for="SMS">SMS</label>
+          </div>
+        </fieldset>
+        </div>
+        <div class="button">
+            <button type="submit">Отправить</button>
+          </div>
+    </form>
+  </body>
+</html>

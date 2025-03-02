@@ -1,0 +1,40 @@
+body{
+    background-color: #2f4f4f;
+    font-family: sans-serif;
+}
+form{
+    width: 350px;
+    height: 250px;
+    background-color: #609ea0;
+    margin: 200px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+#login, #password{
+    height: 32px;
+    width: 342px;
+    border-radius: 10px;
+    border: none;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+#submit{
+    height: 32px;
+    width: 172px;
+    border-radius: 10px;
+    border: none;
+    padding: 4px;
+    margin-bottom: 10px;  
+}
+#reset{
+    height: 32px;
+    width: 172px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: #f08080;
+    padding: 4px;
+    margin-bottom: 10px;    
+}
+.checkbox{
+    padding: 0 25%;
+}

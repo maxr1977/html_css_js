@@ -1,0 +1,24 @@
+body{
+    height: 3000px;
+    
+}
+div{
+    width: 60vw;
+    margin: 0 auto;
+}
+.title-one{
+    background-color: rgb(203, 148, 255);
+    position: sticky;
+    top: 0px;
+}
+.title-two{
+    background-color: rgb(203, 148, 255);
+    position: sticky;
+    top: 28px;
+    
+}
+.title-three{
+    background-color: rgb(203, 148, 255);
+    position: sticky;
+    top: 56px;
+}

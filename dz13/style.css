@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    margin: auto;
+    max-width: 1024px;
+    height: 90vh;
+    background-color: #ffc0cb;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    }
+
+.child{
+    background: #87ceeb;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 200px;
+    max-height: 200px;
+    }

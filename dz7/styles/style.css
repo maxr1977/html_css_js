@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    background: rgb(160, 185, 209);
+}
+
+.fruit {
+    margin: 2vw;
+    padding: 1vw;  
+    border: 1px solid gray;
+    background: white;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 250px;
+}
+
+.fruit-img {
+     padding: 1vw;
+} 
