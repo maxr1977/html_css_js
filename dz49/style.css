@@ -1,0 +1,7 @@
+:root {
+  --primary-color: #FF0000
+}
+
+.heading {
+  color: var(--primary-color)
+}
