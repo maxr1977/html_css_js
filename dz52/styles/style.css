@@ -1,0 +1,17 @@
+.container {
+  width: 960px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: red;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+}
+.button {
+  background-color: #007BFF;
+  color: #ffffff;
+}

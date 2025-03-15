@@ -1,0 +1,26 @@
+// Задание 1
+$new-width: 100%;
+
+.container {
+   width: 960px; 
+   height: 200px;
+   margin: 0 auto; 
+   background-color: red;
+   margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+   .container {
+      width: $new-width; 
+   }
+}
+
+// Задание 2
+@mixin button-styles {
+   background-color: #007BFF;
+   color: #ffffff;
+}
+
+.button {
+   @include button-styles; 
+}
