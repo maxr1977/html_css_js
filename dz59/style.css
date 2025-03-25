@@ -1,0 +1,31 @@
+ ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 400px;
+    margin: 0 auto;
+   }
+
+ li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    gap: 20px;
+    border-bottom: 1px solid rgb(112, 112, 112);
+    background: #ebebec;
+    border-radius: 5px;
+ }
+
+ button {
+    background-color: #4284ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+ }
+
+ button:hover {
+    background-color: #004ec2;
+ }
